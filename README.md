@@ -31,6 +31,7 @@
 ### Other Knowledge:
 
 ![MySQL](https://img.shields.io/badge/-mysql-0D1117?style=for-the-badge&logo=mysql&labelColor=0D1117)&nbsp;
+![SQL](https://img.shields.io/badge/-SQL-0D1117?style=for-the-badge&logo=microsoft-office&labelColor=0D1117)&nbsp;
 ![Figma](https://img.shields.io/badge/-figma-0D1117?style=for-the-badge&logo=figma&labelColor=0D1117)&nbsp;
 ![c-sharp](https://img.shields.io/badge/-c_sharp-0D1117?style=for-the-badge&logo=microsoft-office&labelColor=0D1117)&nbsp;
 
