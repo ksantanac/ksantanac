@@ -13,4 +13,4 @@
 
 
 ### Main skills:
-![Python](https://img.shields.io/badge/-swift-0D1117?style=for-the-badge&logo=Python&logoColor=orange&labelColor=)
+![Python](https://img.shields.io/badge/-swift-0D1117?style=for-the-badge&logo=Python&logoColor=yellow&labelColor=)
