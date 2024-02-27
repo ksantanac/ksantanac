@@ -26,7 +26,7 @@
 ![Git](https://img.shields.io/badge/-Git-0D1117?style=for-the-badge&logo=git&labelColor=0D1117)&nbsp; 
 ![Pycharm](https://img.shields.io/badge/-Pycharm-0D1117?style=for-the-badge&logo=microsoft-office&labelColor=0D1117)&nbsp;
 ![microsoft-office](https://img.shields.io/badge/-microsoft_office-0D1117?style=for-the-badge&logo=microsoft-office&labelColor=0D1117)&nbsp;
-![Jupyter](https://img.shields.io/badge/-Jupyter-Notebook-0D1117?style=for-the-badge&logo=microsoft-office&labelColor=0D1117)&nbsp;
+![jupyter](https://img.shields.io/badge/-Jupyter_Notebook-0D1117?style=for-the-badge&logo=microsoft-office&labelColor=0D1117)&nbsp;
 
 ### Other Knowledge:
 
