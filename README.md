@@ -32,7 +32,7 @@
 
 ![MySQL](https://img.shields.io/badge/-mysql-0D1117?style=for-the-badge&logo=mysql&labelColor=0D1117)&nbsp;
 ![Figma](https://img.shields.io/badge/-figma-0D1117?style=for-the-badge&logo=figma&labelColor=0D1117)&nbsp;
-![C](https://img.shields.io/badge/-C Sharp-0D1117?style=for-the-badge&logo=microsoft-office&labelColor=0D1117)&nbsp;
+![C](https://img.shields.io/badge/-CSharp-0D1117?style=for-the-badge&logo=microsoft-office&labelColor=0D1117)&nbsp;
 
 
 
