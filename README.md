@@ -21,7 +21,7 @@
 ![GitHub](https://img.shields.io/badge/-GitHub-0D1117?style=for-the-badge&logo=github&labelColor=0D1117)&nbsp;
 
 ### Tools:
-![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-0D1117?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC&labelColor=0D1117)&nbsp;![XCode](https://img.shields.io/badge/-XCODE-0D1117?style=for-the-badge&logo=xcode&labelColor=0D1117)&nbsp;
+![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-0D1117?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC&labelColor=0D1117)&nbsp;
 ![Android Studio](https://img.shields.io/badge/-androistudio-0D1117?style=for-the-badge&logo=androidstudio&labelColor=0D1117)&nbsp;
 ![Git](https://img.shields.io/badge/-Git-0D1117?style=for-the-badge&logo=git&labelColor=0D1117)&nbsp; 
 ![Pycharm](https://img.shields.io/badge/-Pycharm-0D1117?style=for-the-badge&logo=git&labelColor=0D1117)&nbsp;
