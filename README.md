@@ -4,11 +4,10 @@
 
  [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=ffffff&size=35&center=true&vCenter=true&width=1000&lines=HELLO,+MY+NAME+is+Kaue+Santana;I'm+21+years+old;I+from+Brasil,+SP;I'm+a+Data+Engineer+at+Equifax+Boa+Vista;Be+Welcome!+:%29)](https://git.io/typing-svg)
  
-<div align="center">  
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=ksantanac&show_icons=true&count_private=true&hide_border=true&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&bg_color=0d1117" alt="Kaue Santana github stats" /> 
-  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ksantanac&layout=compact&hide_border=true&hide=html,css&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117" />
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ksantanac&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ksantanac&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
 </div>
-
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=ksantanac&theme=dracula&row=2&no-bg=true&column=3&margin-w=15&margin-h=15" />
