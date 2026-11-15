@@ -1,0 +1,49 @@
+name: Atualizar idade no README
+
+# Recalcula a idade todo dia a partir da data de nascimento e só faz commit
+# quando o número muda (no aniversário).
+on:
+  schedule:
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  idade:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Calcular idade e atualizar o README
+        run: |
+          python3 - <<'PY'
+          import re
+          from datetime import date
+          nascimento = date(2003, 6, 13)
+          hoje = date.today()
+          idade = hoje.year - nascimento.year - ((hoje.month, hoje.day) < (nascimento.month, nascimento.day))
+          with open("README.md", encoding="utf-8") as f:
+              texto = f.read()
+          novo = re.sub(r"<!--IDADE-->\d+<!--/IDADE-->", f"<!--IDADE-->{idade}<!--/IDADE-->", texto)
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(novo)
+          print("idade:", idade)
+          PY
+
+      - name: Commit (só se mudou)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet && echo "sem mudança" && exit 0
+          git commit -am "chore: atualiza idade"
+          git push
+
+      # O GitHub desativa agendamentos após 60 dias sem atividade no repositório.
+      # Reativar o workflow a cada execução mantém o agendamento funcionando.
+      - name: Manter o agendamento ativo
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/idade.yml/enable"
