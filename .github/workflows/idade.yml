@@ -27,7 +27,8 @@ jobs:
           idade = hoje.year - nascimento.year - ((hoje.month, hoje.day) < (nascimento.month, nascimento.day))
           with open("README.md", encoding="utf-8") as f:
               texto = f.read()
-          novo = re.sub(r"<!--IDADE-->\d+<!--/IDADE-->", f"<!--IDADE-->{idade}<!--/IDADE-->", texto)
+          # a idade aparece na animação de digitação do topo: "...;23+anos+%E2%80%A2+..."
+          novo = re.sub(r";\d+\+anos\+", f";{idade}+anos+", texto)
           with open("README.md", "w", encoding="utf-8") as f:
               f.write(novo)
           print("idade:", idade)
